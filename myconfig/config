@@ -1,0 +1,122 @@
+
+
+Host school
+	HostName 10.14.104.232
+	User zhicheng
+    ServerAliveInterval 10
+
+Host jiufeng
+	HostName 117.40.83.208
+	User shentong
+    Port 22222
+    ServerAliveInterval 10
+
+Host 103
+	HostName 192.168.3.103
+	User zhicheng
+    ServerAliveInterval 10
+
+Host 107
+	HostName 192.168.3.107
+	User zhicheng
+    ServerAliveInterval 10
+
+Host 202
+	HostName 192.168.3.202
+	User zhicheng
+    ServerAliveInterval 10
+
+
+Host 111
+	HostName 192.168.3.111
+	User zhicheng
+    ServerAliveInterval 10
+
+Host 112
+	HostName 192.168.3.112
+	User zhicheng
+    ServerAliveInterval 10
+
+Host 113
+	HostName 192.168.3.113
+	User zhicheng
+    ServerAliveInterval 10
+
+Host 114
+	HostName 192.168.3.114
+	User zhicheng
+    ServerAliveInterval 10
+
+Host 152
+  HostName 192.168.3.152
+  User zhicheng
+  ServerAliveInterval 10
+
+Host 192
+	HostName 192.168.3.192
+	User zhicheng
+    ServerAliveInterval 10
+
+Host 193
+	HostName 192.168.3.193
+	User zhicheng
+    ServerAliveInterval 10
+
+Host 194
+	HostName 192.168.3.194
+	User zhicheng
+    ServerAliveInterval 10
+
+Host 8
+	HostName 192.168.3.8
+	User zhicheng
+    ServerAliveInterval 10
+
+Host 762
+	HostName 192.168.7.62
+	User deepglint
+    ServerAliveInterval 10
+
+Host work
+	HostName 192.168.7.53
+	User zhicheng
+    ServerAliveInterval 10
+
+Host haoquan
+	HostName 192.168.6.89
+	User zhicheng
+    ServerAliveInterval 10
+
+Host mac
+	HostName 192.168.1.144
+	User zhichengsun
+    ServerAliveInterval 10
+
+Host datacenter
+  HostName 211.103.220.74
+  User zhichengsun
+  Port 8011
+  ServerAliveInterval 10
+  ForwardAgent yes
+ 
+Host centerserver
+  HostName 192.168.3.202
+  User zhicheng
+  ProxyCommand ssh datacenter -q -W %h:%p datacenter
+
+Host jiufeng
+  HostName 117.40.83.208
+  User shentong
+  Port 22222
+  ServerAliveInterval 10
+
+Host bwg
+  HostName 97.64.20.83
+  User root
+  Port 27209
+  ServerAliveInterval 10
+
+Host cushing
+  HostName 117.50.2.154
+  User ubuntu
+  ServerAliveInterval 10
