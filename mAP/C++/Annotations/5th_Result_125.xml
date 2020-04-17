@@ -1,0 +1,37 @@
+<annotation>
+	<folder>RSData</folder>
+	<filename>Result_125.jpg</filename>
+	<source>
+		<database>HSRI-OBJDET</database>
+	</source>
+	<size>
+		<width>4096</width>
+		<height>4096</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ÇÅÁº</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1243</xmin>
+			<ymin>790</ymin>
+			<xmax>1321</xmax>
+			<ymax>829</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>·É»ú</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>414</xmin>
+			<ymin>565</ymin>
+			<xmax>460</xmax>
+			<ymax>604</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,37 @@
+<annotation>
+	<folder>RSData</folder>
+	<filename>Result_228.jpg</filename>
+	<source>
+		<database>HSRI-OBJDET</database>
+	</source>
+	<size>
+		<width>4096</width>
+		<height>4096</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>´¬Ö»</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2102</xmin>
+			<ymin>3871</ymin>
+			<xmax>2238</xmax>
+			<ymax>4096</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ÂëÍ·</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>0</xmin>
+			<ymin>2882</ymin>
+			<xmax>3334</xmax>
+			<ymax>4089</ymax>
+		</bndbox>
+	</object>
+</annotation>

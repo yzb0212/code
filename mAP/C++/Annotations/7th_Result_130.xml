@@ -1,0 +1,25 @@
+<annotation>
+	<folder>RSData</folder>
+	<filename>Result_130.jpg</filename>
+	<source>
+		<database>HSRI-OBJDET</database>
+	</source>
+	<size>
+		<width>4096</width>
+		<height>4096</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>²Ù³¡</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3352</xmin>
+			<ymin>994</ymin>
+			<xmax>3429</xmax>
+			<ymax>1035</ymax>
+		</bndbox>
+	</object>
+</annotation>

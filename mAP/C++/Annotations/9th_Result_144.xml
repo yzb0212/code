@@ -1,0 +1,37 @@
+<annotation>
+	<folder>RSData</folder>
+	<filename>Result_144.jpg</filename>
+	<source>
+		<database>HSRI-OBJDET</database>
+	</source>
+	<size>
+		<width>4096</width>
+		<height>4096</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>«≈¡∫</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>293</xmin>
+			<ymin>3908</ymin>
+			<xmax>395</xmax>
+			<ymax>4094</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>«≈¡∫</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3469</xmin>
+			<ymin>886</ymin>
+			<xmax>3855</xmax>
+			<ymax>1222</ymax>
+		</bndbox>
+	</object>
+</annotation>

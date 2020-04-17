@@ -1,0 +1,13 @@
+本文件夹中有四个文件，分别为：
+eval_multi_score.py
+eval_net.py
+eval_ssd_net.py
+eval_ssd_score.py
+其中两个文件，为对分类进行评价的文件
+另两个，为对检测进行评价的文件
+
+================================
+运行的代码为：
+python eval_ssd_net.py -p /train/execute/carpersonface/ssd/models/carpersonface_1280x720/deploy.prototxt -m /train/execute/carpersonface/ssd/snapshot/carpersonface_1280x720/VGGd4_carpersonface_1280x720_iter_25000.caffemodel -i /train/execute/carpersonface/test.txt -l /train/execute/carpersonface/labelmap.prototxt -o /train/execute/carpersonface/evalout/ -g 0
+
+python eval_ssd_score.py -f /train/execute/carpersonface/evalout/ssdpredfile.npz

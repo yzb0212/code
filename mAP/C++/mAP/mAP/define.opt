@@ -1,0 +1,24 @@
+#CUDAPATH=/usr/local/cuda-7.5/bin
+#CUDALIB=/usr/local/cuda-7.5/lib64
+
+#c编译器
+CC = gcc
+
+#c++编译器
+CPPC = g++
+
+#cuda编译器
+#CUDAC = $(CUDAPATH)/nvcc
+
+#通用编译选项
+COMMONFLAGS = -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o"$@" "$<" -fPIC -DLINUX64 
+
+#debug编译选项
+DFLAGS = -O0 -g3 $(COMMONFLAGS) -mavx 
+
+#release编译选项
+FLAGS = -O3 $(COMMONFLAGS) -mavx
+
+#公共库
+COMMONLIBS = 
+
